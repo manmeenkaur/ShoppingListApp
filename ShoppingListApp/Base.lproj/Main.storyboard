@@ -37,7 +37,7 @@
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please enter list name" borderStyle="line" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uoX-ER-Txl">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Shopping List" borderStyle="line" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uoX-ER-Txl">
                                         <rect key="frame" x="13" y="58" width="333" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
@@ -233,7 +233,7 @@
                                         <color key="textColor" red="0.4352940917" green="0.4941176176" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please enter list name" borderStyle="line" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="77F-ox-s5b">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Shopping List" borderStyle="line" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="77F-ox-s5b">
                                         <rect key="frame" x="359" y="7" width="297" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
@@ -272,22 +272,37 @@
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Uvc-ZI-iui">
                                         <rect key="frame" x="426" y="72" width="94" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="StepperLandscape1:" destination="BYZ-38-t0r" eventType="valueChanged" id="xcY-Zl-a3U"/>
+                                        </connections>
                                     </stepper>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="si5-Zr-xrg">
                                         <rect key="frame" x="426" y="114" width="94" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="StepperLandscape2:" destination="BYZ-38-t0r" eventType="valueChanged" id="X7N-Rx-s5b"/>
+                                        </connections>
                                     </stepper>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="9sa-Yl-PfW">
                                         <rect key="frame" x="426" y="156" width="94" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="StepperLandscape3:" destination="BYZ-38-t0r" eventType="valueChanged" id="zSF-gL-aY7"/>
+                                        </connections>
                                     </stepper>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="bMx-NN-5dn">
                                         <rect key="frame" x="426" y="198" width="94" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="StepperLandscape4:" destination="BYZ-38-t0r" eventType="valueChanged" id="JT3-hz-eNh"/>
+                                        </connections>
                                     </stepper>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="jLa-5j-AwW">
                                         <rect key="frame" x="426" y="240" width="94" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="StepperLandscape5:" destination="BYZ-38-t0r" eventType="valueChanged" id="lDW-RB-cMC"/>
+                                        </connections>
                                     </stepper>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDA-Lg-s2E">
                                         <rect key="frame" x="561" y="88" width="119" height="60"/>
@@ -297,6 +312,9 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.94901961089999998" green="0.66274511810000003" blue="0.61176472900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="SaveListLandscape:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wpG-7w-TtX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56H-mb-fev">
                                         <rect key="frame" x="561" y="184" width="119" height="60"/>
@@ -306,6 +324,9 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                             <color key="baseBackgroundColor" red="0.4352940917" green="0.4941176176" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="CancelListLandscape:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OfX-2l-QIf"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqp-ue-jGG">
                                         <rect key="frame" x="367" y="72" width="42" height="32"/>
@@ -377,12 +398,23 @@
                         <outlet property="Label3" destination="VOj-7r-mse" id="NE2-7l-YHc"/>
                         <outlet property="Label4" destination="gAr-wf-est" id="CyJ-FQ-UrH"/>
                         <outlet property="Label5" destination="JMG-Rb-IXb" id="8a8-1v-OFl"/>
+                        <outlet property="LabelLandscape1" destination="Wqp-ue-jGG" id="2pN-WP-S1V"/>
+                        <outlet property="LabelLandscape2" destination="CQK-eK-s7I" id="ZDd-V3-pv7"/>
+                        <outlet property="LabelLandscape3" destination="fXO-FY-lKY" id="tgw-u8-zxV"/>
+                        <outlet property="LabelLandscape4" destination="BJz-GO-jZt" id="OX1-dC-dDa"/>
+                        <outlet property="LabelLandscape5" destination="0uF-mO-ZSQ" id="gLK-Wc-5Wq"/>
                         <outlet property="ShoppingListName" destination="uoX-ER-Txl" id="tPN-pg-KRb"/>
+                        <outlet property="ShoppingListNameLandscape" destination="77F-ox-s5b" id="LbE-YW-b00"/>
                         <outlet property="TextField1" destination="ns5-Jx-xCM" id="7Xt-YY-1Kn"/>
                         <outlet property="TextField2" destination="NeT-P9-m03" id="g2e-Nl-Qhm"/>
                         <outlet property="TextField3" destination="c4P-Cg-CAt" id="nDe-oo-S67"/>
                         <outlet property="TextField4" destination="NMm-v3-iwH" id="bu1-Gq-A6r"/>
                         <outlet property="TextField5" destination="aOd-Wu-PfO" id="Vdv-X5-aZA"/>
+                        <outlet property="TextFieldLandscape1" destination="K4i-If-8Nk" id="7nF-tu-hpv"/>
+                        <outlet property="TextFieldLandscape2" destination="m0A-91-lDu" id="lTs-XM-aMq"/>
+                        <outlet property="TextFieldLandscape3" destination="1an-A8-W8S" id="gMD-iZ-DlX"/>
+                        <outlet property="TextFieldLandscape4" destination="hjF-q6-4xO" id="MXF-VW-QiO"/>
+                        <outlet property="TextFieldLandscape5" destination="1lx-gk-lkg" id="fJ0-mb-ffh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
